@@ -1,0 +1,33 @@
+.postContainer{
+    width:250px;
+    float:left;
+    margin:5px;
+    background-color:#fbfbfb;
+    padding:10px;
+    -webkit-box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.17);
+-moz-box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.17);
+box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.17);
+}
+
+.post-body{
+    text-align: justify;
+    height: 149px;
+    overflow: hidden;
+}
+
+.post-title{
+    margin-top: 5px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.postContainer img{
+    width:200px;
+}
+.post-card{
+padding: 10px;
+margin-bottom: 10px;
+}
+.post-img-top{
+    width:100%
+}
