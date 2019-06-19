@@ -1,10 +1,12 @@
 {
-  "name": "day-one-app",
+  "name": "react-blogs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://harshalc.github.io/react-blogs/",
   "dependencies": {
     "@babel/runtime": "^7.4.5",
     "bootstrap": "^4.0.0-alpha.6",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
@@ -16,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -b build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
