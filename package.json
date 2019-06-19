@@ -1,8 +1,9 @@
 {
   "name": "react-blogs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://harshalc.github.io/react-blogs/",
+  "path": "https://harshalc.github.io/react-blogs/",
   "dependencies": {
     "@babel/runtime": "^7.4.5",
     "bootstrap": "^4.0.0-alpha.6",
