@@ -27,17 +27,7 @@ class App extends React.Component {
                 name : 'Harshal',
                 url: 'https://github.com/harshalc',
                 color:'#ff00FF'
-            },
-            {
-                name : 'Pravin',
-                url: 'https://github.com/pravin',
-                color:'#ffFF00'
-            },
-            {
-                name : 'Mahadev',
-                url: 'https://github.com/mahadev',
-                color:'#ff0099'
-            },
+            }
         ]
         return ( 
             <div className = "App container-fluid" >
